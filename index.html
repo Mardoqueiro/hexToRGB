@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hex to RGB</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div class="converter">
+        <h1>Hex to RGB Converter</h1>
+        <div class="input-container">
+            <input type="text" id="hex-input" required>
+        </div>
+        <div class="input-container">
+            <input type="text" id="rgb-output" readonly>
+        </div>
+        <button onclick="convertHexToRgb()">Convert</button>    
+    </div>
 
     <script src="script/code.js"></script>
 </body>
